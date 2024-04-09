@@ -13,6 +13,7 @@ config :advent_of_elixir, :git_hooks,
     pre_commit: [
       tasks: [
         {:cmd, "mix format --check-formatted"}
+        {:cmd, "echo 'formatted!'"}
       ]
     ],
     pre_push: [
