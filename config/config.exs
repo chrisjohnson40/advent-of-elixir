@@ -6,7 +6,7 @@ if Mix.env() == :dev do
     auto_install: true,
     verbose: true,
     branches: [
-      whitelist: ["feature/.*"],
+      whitelist: ["feature/.*", "bugfix/.*"],
       blacklist: ["main"]
     ],
     hooks: [
