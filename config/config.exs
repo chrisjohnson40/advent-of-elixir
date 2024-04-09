@@ -6,7 +6,7 @@ config :advent_of_elixir, :git_hooks,
   auto_install: true,
   verbose: true,
   branches: [
-    whitelist: ["feature/.*"],
+    whitelist: [],
     blacklist: ["main"]
   ],
   hooks: [
