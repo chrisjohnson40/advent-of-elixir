@@ -21,6 +21,7 @@ defmodule AdventOfElixir.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
+      {:credo, "~> 1.7", only: [:dev, :test], runtime: false},
       {:git_hooks, "~> 0.7.3", only: [:dev], runtime: false}
     ]
   end
