@@ -12,5 +12,7 @@ defmodule AdventOfElixir do
       :world
 
   """
-  def hello, do: :world
+  def hello do
+    :world
+  end
 end
